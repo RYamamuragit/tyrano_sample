@@ -7,31 +7,81 @@
 
 「走るか寝るかするメロス」[l][r]
 
-メロスは激怒した。[l][r]
+時は期末テスト2日前。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+「あとちょっとでテストか～」[l][r]
 
-(中略)[l][r]
+「そろそろ、勉強しないとな」[1][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+[cm]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+初日、どうしますか？[l][r]
+
+[link target=*tag_sleep1] →寝る [endlink][r]
+[link target=*tag_study1] →勉強する [endlink][r]
+[link target=*tag_youtube1] →youtubeを見る [endlink][r]
+
 [s]
 
-*tag_sleep
+*tag_sleep1
 
 [cm]
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+とりあえず寝ることにした。[r]
+「今日はまだ寝てても大丈夫でしょ。」[r]
+明日、頑張ることにした。[r]
+
+[cm]
+2日日、どうしますか？[l][r]
+
+[link target=*tag_sleep2-1] →寝る [endlink][r]
+[link target=*tag_study2-2] →勉強する [endlink][r]
+[link target=*tag_youtube2-3] →youtubeを見る [endlink][r]
+
+*tag_sleep2-1
+
+[cm]
+
+[bg storage=sleep.jpg time=500]
+
+また寝ることにした。[r]
+「どうしよう、なにも勉強してないよ」[r][l]
+試験前の勉強だけでは当然間に合わず、うまくいかなかった…。[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
+
+*tag_study2-2
+
+今日こそ勉強をしてみた。[r]
+「結構できた！テスト対策もばっちりだ」[r][l]
+試験はとてもうまくいけた！
+
+【 GOOD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_study1
+
+今日は勉強をした。[r][l]
+「だいぶすすんだなあ、これはもう大丈夫だ！」
+
+[cm]
+
+2日日、どうしますか？[l][r]
+
+[link target=*tag_sleep2] →寝る [endlink][r]
+[link target=*tag_study2] →勉強する [endlink][r]
+[link target=*tag_youtube2] →youtubeを見る [endlink][r]
+
+
+
+
+
+
 
 *tag_run
 
